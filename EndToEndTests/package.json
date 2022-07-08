@@ -1,0 +1,31 @@
+{
+  "name": "endtoendtests",
+  "version": "1.0.0",
+  "description": "E2E test for the happy path of the checkout flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "headless": "cypress run",
+    "regression": "cypress run --spec cypress/e2e/regression_tests.cy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AllanTumu/Use_Case_Allan_Tumuhimbise.git"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Allan Tumuhimbise",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AllanTumu/Use_Case_Allan_Tumuhimbise/issues"
+  },
+  "homepage": "https://github.com/AllanTumu/Use_Case_Allan_Tumuhimbise#readme",
+  "devDependencies": {
+    "cypress": "^10.3.0",
+    "cypress-iframe": "^1.0.1"
+  }
+}
